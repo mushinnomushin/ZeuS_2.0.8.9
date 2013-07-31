@@ -1,0 +1,14 @@
+set_url *c_toolbar.js* GP
+
+data_before
+ShowAllBars(MW);
+data_end
+
+data_inject
+
+alert('inject on');
+
+data_end
+
+data_after
+data_end

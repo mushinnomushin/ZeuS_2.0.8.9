@@ -1,0 +1,2 @@
+работает http://idemo17.bssys.com/v8/s/bsi.dll?T=RT_1Loader.Load
+не работает http://idemo17.bssys.com/ (хотя редиректит туда же)

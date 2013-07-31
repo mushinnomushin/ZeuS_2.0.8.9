@@ -1,0 +1,15 @@
+set_url *.* GP
+data_before
+data_end
+data_inject
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript">
+function xxx_test() {
+	$.get("http://www.google.com/intl/en_com/images/srpr/logo1w.png", { x: "xxx" }); // <-- ahtung
+};
+xxx_test();
+</script>
+data_end
+data_after
+</head
+data_end
